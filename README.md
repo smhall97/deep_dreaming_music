@@ -5,7 +5,6 @@
 
 
 
-
 ## Aims
 To determine if audible waveforms can be reconstructed using the "dreaming" process from features learned by a convolutional neural network. 
 ## Methods
