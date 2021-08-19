@@ -11,6 +11,11 @@ To determine if audible waveforms can be reconstructed using the "dreaming" proc
 
 ## Findings
 
+### Future directions
+
+The focus on only visual representations of the audio data might have limited our results as we were limited by our audio reconstruction techniques. Future work could investigate preserving the audio signal and using models better suited to this kind of signal data (e.g. RNNs, Transformers or autoregressive models such as WaveNet). This limitation was further evident in our use of networks pre-trained on ImageNet alone. Future work could incorporate pre-training on more applicable data such as STFT to help the model learn better internal representations to be dreamed upon.  
+
+
 ## References
 1. Olah C, Mordvintsev A, Schubert L. Feature visualization. Distill. 2017 Nov 7;2(11).
 2. 	Google AI Blog: Inceptionism: Going Deeper into Neural Networks [Internet]. [cited 2021 Aug 16]. Available from: https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
