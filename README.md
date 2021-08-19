@@ -10,10 +10,17 @@ To determine if audible waveforms can be reconstructed using the "dreaming" proc
 ## Methods
 
 ## Findings
+### Audio Reconstruction after dreaming
+In applying the dreaming to the spectrograms, we gain insight into the learned representations the model uses to perform the classification. We are able to visually represent these features, as well as interpret them in audio formats. 
+
+We were limited by our audio reconstruction techniques which immediately revealed a catch-22.
+
+We were able to achieve high classification accuracies when training the models with Mel-spectrograms, but these cannot be cleanly reconverted to audio data.
+While STFTs are cleanly converted to audio (without noise added during reconstruction), we achieved lower classification accuracies when training with STFTs. This poor classification accuracy suggests the model didn’t learn useful internal representations that can be maximised during the dreaming process that will transform an input while obeying the laws of spectrograms to ensure it can be reconstructed into audio. 
 
 ### Future directions
 
-The focus on only visual representations of the audio data might have limited our results as we were limited by our audio reconstruction techniques. Future work could investigate preserving the audio signal and using models better suited to this kind of signal data (e.g. RNNs, Transformers or autoregressive models such as WaveNet). This limitation was further evident in our use of networks pre-trained on ImageNet alone. Future work could incorporate pre-training on more applicable data such as STFT to help the model learn better internal representations to be dreamed upon.  
+The focus on only visual representations of the audio data limited our results as we were limited by audio reconstruction techniques. Future work could investigate using the raw audio signal and using models better suited to signal data (e.g. RNNs, Transformers or autoregressive models such as WaveNet). This limitation was further evident in our use of networks pre-trained on ImageNet alone. Future work could incorporate pre-training on more applicable data such as STFT transforms to help the model learn better internal representations to be maximised during dreaming.  
 
 
 ## References
