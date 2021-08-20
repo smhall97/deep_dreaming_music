@@ -15,6 +15,7 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 - To determine if audible waveforms can be reconstructed using the "dreaming" process from features learned by a convolutional neural network. 
 - To investigate the best approach to training a classifier as well as choosing the type of audio data transform that can be reconverted to music once “dreamed” upon. 
 
+---
 ## Methods
 ![Overall pipeline - from classification to dreaming](https://github.com/smhall97/deep_dreaming_music/blob/main/Pipelines/Overall%20pipeline.png)
 
@@ -36,6 +37,7 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 - [VGG16](https://arxiv.org/abs/1409.1556)
 - [Inception_v3](https://arxiv.org/abs/1512.00567)
 
+---
 ## Dreaming
 [Deep Dreaming Music Code](https://github.com/smhall97/deep_dreaming_music/blob/main/Deep_Dream_Music.ipynb)
 
@@ -63,12 +65,12 @@ For either approach, one can choose to normalize the gradient or not (which usua
 **Maximize activation difference between a single genre and another (or all other) genre(s)**
 ![Maximise differences](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_difference.png)
 
-
+---
 ## Findings
 ### Classification accuracies
 ![training accuracies](https://github.com/smhall97/deep_dreaming_music/blob/main/results/training_results.png)
 
-### Dreamed music:
+## Dreamed music:
 - [Input stft: disco.0 from gztan, optimize difference for classical using subtractive update, reconstruct Green channel ](https://github.com/smhall97/deep_dreaming_music/blob/main/results/disco-subtractive-optimize-for-classical-using-difference-chG.wav)
 - [Input stft: reggae.0 from gztan, optimize for metal using subtractive update, reconstruct Blue channel](https://github.com/smhall97/deep_dreaming_music/blob/main/results/reggae-subtractive-optimize-for-metal-chB.wav)
 - [Input stft: sinusoidal frequency sweep, optimize for hiphop using additive update, reconstruct Green channel](https://github.com/smhall97/deep_dreaming_music/blob/main/results/stft_sweep_hiphop_chG.wav) 
@@ -77,8 +79,8 @@ For either approach, one can choose to normalize the gradient or not (which usua
 ### Visualisation of dreamed jazz
 ![visualization](https://github.com/smhall97/deep_dreaming_music/blob/main/results/stft_sweep_jazz_sm.gif)
 
-
-### Discussion: audio Reconstruction after dreaming
+---
+## Discussion
 In applying the dreaming to the spectrograms, we gain insight into the learned representations the model uses to perform the classification. We are able to visually represent these features, as well as interpret them in audio formats. 
 
 We were limited by our audio reconstruction techniques which immediately revealed a catch-22.
@@ -86,11 +88,11 @@ We were limited by our audio reconstruction techniques which immediately reveale
 We were able to achieve high classification accuracies when training the models with Mel-spectrograms, but these cannot be cleanly reconverted to audio data.
 While STFTs are cleanly converted to audio (without noise added during reconstruction), we achieved lower classification accuracies when training with STFTs. This poor classification accuracy suggests the model didn’t learn useful internal representations that can be maximised during the dreaming process that will transform an input while obeying the laws of spectrograms to ensure it can be reconstructed into audio. 
 
-### Future directions
+## Future directions and ideas
 
 The focus on only visual representations of the audio data limited our results as we were limited by audio reconstruction techniques. Future work could investigate using the raw audio signal and using models better suited to signal data (e.g. RNNs, Transformers or autoregressive models such as WaveNet). This limitation was further evident in our use of networks pre-trained on ImageNet alone. Future work could incorporate pre-training on more applicable data such as STFT transforms to help the model learn better internal representations to be maximised during dreaming.  
 
-
+---
 ## References
 1. Olah C, Mordvintsev A, Schubert L. Feature visualization. Distill. 2017 Nov 7;2(11).
 2. 	Google AI Blog: Inceptionism: Going Deeper into Neural Networks [Internet]. [cited 2021 Aug 16]. Available from: https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
