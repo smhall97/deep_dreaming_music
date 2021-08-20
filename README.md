@@ -74,13 +74,13 @@ For either approach, one can choose to normalize the gradient or not (which usua
 ### Classification accuracies
 ![training accuracies](https://github.com/smhall97/deep_dreaming_music/blob/main/results/training_results.png)
 
-## Dreamed music:
+### Dreamed music:
 - [Input stft: disco.0 from gztan, optimize difference for classical using subtractive update, reconstruct Green channel ](https://github.com/smhall97/deep_dreaming_music/blob/main/results/disco-subtractive-optimize-for-classical-using-difference-chG.wav)
 - [Input stft: reggae.0 from gztan, optimize for metal using subtractive update, reconstruct Blue channel](https://github.com/smhall97/deep_dreaming_music/blob/main/results/reggae-subtractive-optimize-for-metal-chB.wav)
 - [Input stft: sinusoidal frequency sweep, optimize for hiphop using additive update, reconstruct Green channel](https://github.com/smhall97/deep_dreaming_music/blob/main/results/stft_sweep_hiphop_chG.wav) 
 - [Input stft: sinusoidal frequency sweep, optimize for jazz using additive update, reconstruct Green channel](https://github.com/smhall97/deep_dreaming_music/blob/main/results/stft_sweep_jazz_chG.wav)
 
-### Visualisation of dreamed jazz
+#### Visualisation of dreamed jazz
 ![visualization](https://github.com/smhall97/deep_dreaming_music/blob/main/results/stft_sweep_jazz_sm.gif)
 
 ---
