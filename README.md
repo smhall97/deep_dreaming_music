@@ -65,7 +65,15 @@ For either approach, one can choose to normalize the gradient or not (which usua
 
 
 ## Findings
-### Audio Reconstruction after dreaming
+### Classification accuracies
+![training accuracies](https://github.com/smhall97/deep_dreaming_music/blob/main/results/training_results.png)
+
+### Dreamed music:
+Input stft: disco.0 from gztan, optimize difference for classical using subtractive update, reconstruct Green channel 
+[reconstruction](https://github.com/smhall97/deep_dreaming_music/blob/main/results/disco-subtractive-optimize-for-classical-using-difference-chG.wav)
+
+
+### Discussion: audio Reconstruction after dreaming
 In applying the dreaming to the spectrograms, we gain insight into the learned representations the model uses to perform the classification. We are able to visually represent these features, as well as interpret them in audio formats. 
 
 We were limited by our audio reconstruction techniques which immediately revealed a catch-22.
