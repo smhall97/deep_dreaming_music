@@ -16,6 +16,8 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 - To investigate the best approach to training a classifier as well as choosing the type of audio data transform that can be reconverted to music once “dreamed” upon. 
 
 ## Methods
+![Overall pipeline - from classification to dreaming](https://github.com/smhall97/deep_dreaming_music/blob/main/Pipelines/Overall%20pipeline.png)
+
 
 ## Findings
 ### Audio Reconstruction after dreaming
