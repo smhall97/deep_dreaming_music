@@ -30,9 +30,9 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 - The STFTs were computed with the real and imaginary part, as well as only the real component. Both of these versions were used separately 
 
 ### Models
-[Training convolutional neural networks](https://github.com/smhall97/deep_dreaming_music/blob/main/Combined_CNN_Training.ipynb)
+[Code for training convolutional neural networks](https://github.com/smhall97/deep_dreaming_music/blob/main/Combined_CNN_Training.ipynb)
 
-[Feature visualisation](https://github.com/smhall97/deep_dreaming_music/blob/main/Feature_visualisation_VGG16.ipynb)
+[Code for eature visualisation](https://github.com/smhall97/deep_dreaming_music/blob/main/Feature_visualisation_VGG16.ipynb)
 
 - [VGG16](https://arxiv.org/abs/1409.1556)
 - [Inception_v3](https://arxiv.org/abs/1512.00567)
@@ -41,7 +41,7 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 ## Dreaming
 [Deep Dreaming Music Code](https://github.com/smhall97/deep_dreaming_music/blob/main/Deep_Dream_Music.ipynb)
 
-**Deep Dream Pipeline**
+
 ![Deep Dream Pipeline](https://github.com/smhall97/deep_dreaming_music/blob/main/Pipelines/Deep%20Dream%20Pipeline.png)
 
 #### Update strategies during dreaming: additive and subtractive
