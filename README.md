@@ -42,6 +42,24 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 **Deep Dream Pipeline**
 ![Deep Dream Pipeline](https://github.com/smhall97/deep_dreaming_music/blob/main/Pipelines/Deep%20Dream%20Pipeline.png)
 
+#### Update Strategies: additive and subtractive
+For either approach, one can choose to normalize the gradient or not (which usually leads to faster learning at the cost of sometimes opting for less nuanced dream features)
+*Additive* 
+![additive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/update_additive.gif)
+
+*Subtractive*
+![subtractive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_difference.png)
+
+
+#### Optimization Functions
+**Maximize activation of a single genre**
+![Maximize activation of a single genre](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_activation.png)
+
+
+**Maximize activation difference between a single genre and another (or all other) genre(s)**
+![Maximise differences](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_difference.png)
+
+
 ## Findings
 ### Audio Reconstruction after dreaming
 In applying the dreaming to the spectrograms, we gain insight into the learned representations the model uses to perform the classification. We are able to visually represent these features, as well as interpret them in audio formats. 
