@@ -18,6 +18,16 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 ## Methods
 ![Overall pipeline - from classification to dreaming](https://github.com/smhall97/deep_dreaming_music/blob/main/Pipelines/Overall%20pipeline.png)
 
+### Dataset
+[Exploring the dataset](https://github.com/smhall97/deep_dreaming_music/blob/main/Audio%20data%20preparation/AudioFormatConversion.ipynb)
+[Preparing the data](https://github.com/smhall97/deep_dreaming_music/blob/main/Audio%20data%20preparation/wav2spectrograms.ipynb)
+
+**[GTZAN dataset](https://www.researchgate.net/publication/3333877_Musical_Genre_Classification_of_Audio_Signals)**
+- 1000 audio tracks (length: 30 seconds; 22050 Hz Mono 16-bit audio files in .wav format)
+- 10 genres, with 100 examples each (blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock).
+- The STFTs were computed with the real and imaginary part, as well as only the real component. Both of these versions were used separately 
+
+
 
 ## Findings
 ### Audio Reconstruction after dreaming
