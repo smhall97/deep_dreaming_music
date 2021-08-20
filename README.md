@@ -20,6 +20,7 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 
 ### Dataset
 [Exploring the dataset](https://github.com/smhall97/deep_dreaming_music/blob/main/Audio%20data%20preparation/AudioFormatConversion.ipynb)
+
 [Preparing the data](https://github.com/smhall97/deep_dreaming_music/blob/main/Audio%20data%20preparation/wav2spectrograms.ipynb)
 
 **[GTZAN dataset](https://www.researchgate.net/publication/3333877_Musical_Genre_Classification_of_Audio_Signals)**
