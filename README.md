@@ -42,10 +42,10 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 **Deep Dream Pipeline**
 ![Deep Dream Pipeline](https://github.com/smhall97/deep_dreaming_music/blob/main/Pipelines/Deep%20Dream%20Pipeline.png)
 
-#### Update Strategies: additive and subtractive
+#### Update strategies during dreaming: additive and subtractive
 For either approach, one can choose to normalize the gradient or not (which usually leads to faster learning at the cost of sometimes opting for less nuanced dream features)
 
-*Additive* 
+**Additive** 
 
 ![additive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/update_additive.gif)
 
@@ -55,7 +55,7 @@ For either approach, one can choose to normalize the gradient or not (which usua
 ![subtractive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_difference.png)
 
 
-#### Optimization Functions
+### Optimization Functions
 **Maximize activation of a single genre**
 ![Maximize activation of a single genre](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_activation.png)
 
