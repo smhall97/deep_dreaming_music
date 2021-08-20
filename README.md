@@ -44,10 +44,14 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 
 #### Update Strategies: additive and subtractive
 For either approach, one can choose to normalize the gradient or not (which usually leads to faster learning at the cost of sometimes opting for less nuanced dream features)
+
 *Additive* 
+
 ![additive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/update_additive.gif)
 
-*Subtractive*
+
+**Subtractive**
+
 ![subtractive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_difference.png)
 
 
