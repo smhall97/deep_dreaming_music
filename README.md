@@ -52,7 +52,7 @@ For either approach, one can choose to normalize the gradient or not (which usua
 
 **Subtractive**
 
-![subtractive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/optimize_difference.png)
+![subtractive](https://github.com/smhall97/deep_dreaming_music/blob/main/results/update_subtractive.gif)
 
 
 ### Optimization Functions
