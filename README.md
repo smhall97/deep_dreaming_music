@@ -30,12 +30,16 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 - The STFTs were computed with the real and imaginary part, as well as only the real component. Both of these versions were used separately 
 
 ### Models
-[Code for training convolutional neural networks](https://github.com/smhall97/deep_dreaming_music/blob/main/Combined_CNN_Training.ipynb)
-
-[Code for eature visualisation](https://github.com/smhall97/deep_dreaming_music/blob/main/Feature_visualisation_VGG16.ipynb)
+**Reference papers**
 
 - [VGG16](https://arxiv.org/abs/1409.1556)
 - [Inception_v3](https://arxiv.org/abs/1512.00567)
+
+**Code:**
+
+- [Ttraining convolutional neural networks](https://github.com/smhall97/deep_dreaming_music/blob/main/Combined_CNN_Training.ipynb)
+- [Feature visualisation](https://github.com/smhall97/deep_dreaming_music/blob/main/Feature_visualisation_VGG16.ipynb)
+
 
 ---
 ## Dreaming
