@@ -1,5 +1,5 @@
 # Deep Dreaming Music
-***Neuromatch Academy [Deep Learning 2021 project](https://docs.google.com/presentation/d/1ccBBTnq6kJ8Kvi7bRW69x3lTiZRxoFsAwzD56nLdwHQ/present?slide=id.ge51dc41796_2_83) by [Maryam Faramarzi](https://github.com/MaryamFaramarzi), [Siobhan Hall](https://github.com/smhall97), [Máté Mohácsi](https://github.com/mohacsimate), [Pablo Oyarzo](https://github.com/oyarzou), [Jonathan Reus](https://github.com/jreus) and [Katherine Baquero](https://github.com/KatherineBaq)***
+***[Neuromatch Academy Deep Learning 2021 project](https://docs.google.com/presentation/d/1ccBBTnq6kJ8Kvi7bRW69x3lTiZRxoFsAwzD56nLdwHQ/present?slide=id.ge51dc41796_2_83) by [Maryam Faramarzi](https://github.com/MaryamFaramarzi), [Siobhan Hall](https://github.com/smhall97), [Máté Mohácsi](https://github.com/mohacsimate), [Pablo Oyarzo](https://github.com/oyarzou), [Jonathan Reus](https://github.com/jreus) and [Katherine Baquero](https://github.com/KatherineBaq)***
 
 *Special credit to our TAs: [Pedro F da Costa](https://github.com/PedroFerreiradaCosta) and [Beatrix BenkÅ](https://github.com/bbeatrix)*
 
