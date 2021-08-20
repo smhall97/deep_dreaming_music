@@ -13,7 +13,6 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 
 ## Aims
 - To determine if audible waveforms can be reconstructed using the "dreaming" process from features learned by a convolutional neural network. 
-
 - To investigate the best approach to training a classifier as well as choosing the type of audio data transform that can be reconverted to music once “dreamed” upon. 
 
 ## Methods
