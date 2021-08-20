@@ -3,10 +3,19 @@
 
 *Special credit to our TAs: [Pedro F da Costa](https://github.com/PedroFerreiradaCosta) and [Beatrix BenkÅ](https://github.com/bbeatrix)*
 
+---
+
+## Background
+During the last decade CNNs have become increasingly powerful as models for computer vision. Their development has been carried conjointly with the exploration of their internal informational structure (1) and feature-inference processes. One of these approaches known as “dreaming”, initially developed by Google (2), has proven to be an effective method to maximize features and to take convolutional neural networks to the territory of stimuli generation. 
+In this work, we ask how audible waveforms can be reconstructed from features by exploring dreaming algorithms as a method. This method has the capacity to work as an introspective technique for understanding internal network representations, as well as potentially acting as a generative approach for novel audio output. 
+CNNs have been used to achieve state-of-the-art performance classifying music genres from (Mel Scale) spectrograms (3), thus we choose to explore the problem of music genre classification as a starting point for exploring internal representations. While most literature on CNN-based music genre classifiers use Mel-scale Spectrograms, this audio representation can be potentially limiting in the specific situation of deep dreaming on spectrograms, where the end goal is to reconstruct an audible time-domain waveform. It is for this reason we investigated the following audio transforms: Short-Time-Fourier Transforms (STFTs) and Mel-spectrograms. These will be collectively referred to as Spectrograms throughout.
 
 
 ## Aims
-To determine if audible waveforms can be reconstructed using the "dreaming" process from features learned by a convolutional neural network. 
+- To determine if audible waveforms can be reconstructed using the "dreaming" process from features learned by a convolutional neural network. 
+
+- To investigate the best approach to training a classifier as well as choosing the type of audio data transform that can be reconverted to music once “dreamed” upon. 
+
 ## Methods
 
 ## Findings
