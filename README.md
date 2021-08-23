@@ -37,7 +37,7 @@ CNNs have been used to achieve state-of-the-art performance classifying music ge
 
 **Code:**
 
-- [Ttraining convolutional neural networks](https://github.com/smhall97/deep_dreaming_music/blob/main/Combined_CNN_Training.ipynb)
+- [Training convolutional neural networks](https://github.com/smhall97/deep_dreaming_music/blob/main/Combined_CNN_Training.ipynb)
 - [Feature visualisation](https://github.com/smhall97/deep_dreaming_music/blob/main/Feature_visualisation_VGG16.ipynb)
 
 
